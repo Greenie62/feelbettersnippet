@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+}
+
+.app{
+    height:100vh;
+}
+
+.mainBox{
+    height:30vh;
+}
+
+.header{
+   height:100px; 
+   background:linear-gradient(to right,lightblue,lightgreen,black)
+}
+
+.one, .two, .three{
+    position:absolute;
+}
+
+.one{
+    left:10%;
+    top:15%;
+}
+
+.two{
+    left:10%;
+    top:55%;
+}
+
+.three{
+    left:50%;
+    top:5%;
+    font-size:50px;
+    letter-spacing:15px;
+}
+
+.row{
+    text-align:center;
+    width:100vw;
+    background:linear-gradient(to right,lightgray,#777)
+}
+
+.footer{
+    text-align:center;
+}
+
+.feeldiv, .betterdiv{
+    position:absolute;
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.betterdiv{
+    left:50%;
+   
+}
+
+.overlayone, .overlaytwo, .overlaythree{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    color:red;
+    transition:1s ease;
+   }
+
+   .overlayone{
+       z-index:3;
+   }
+
+.overlaytwo{
+    justify-content:center;
+    z-index:2;
+    opacity:0;
+   
+}
+
+.overlaythree{
+   z-index:1;
+   transition:1s;
+   opacity:0;
+
+
+}
+
+.wayneh1, .on1, .partyh1{
+    position:absolute;
+
+}
+
+.wayneh1{
+    top:35%;
+    left:40%
+}
+
+.onh1{
+    left:40%;
+    top:20%;
+}
+
+.partyh1{
+    top:20%;
+    left:40%;
+}
+
+/* .hide-overlaythree{
+    left:-150%;
+}
+
+
+.hide-overlaytwo{
+    top:125%;
+}
+
+.hideoverlayone{
+    left:150%;
+} */
+
+.hideoverlay{
+    left:150%;
+}
+
+
+span{
+    opacity:0;
+    transition:1s;
+}
+
+.fade{
+    opacity:1;
+}
+
+
+.feelh1, .betterh1{
+    letter-spacing:5px;
+    font-size:35px;
+    transition:1.5s ease;
+}
+
+.feelh1{
+    left:-100%;
+}
+
+.betterh1{
+    transition:2.5s ease;
+    top:-150%
+}
+
+.regular{
+    top:60%;
+}
+
+.link{
+    text-decoration:none;
+    color:green;
+    cursor:pointer;
+    transition:1s;
+}
+
+.link:hover{
+    text-decoration:underline;
+}
